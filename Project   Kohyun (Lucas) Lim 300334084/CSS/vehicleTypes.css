@@ -1,0 +1,40 @@
+
+
+td.imgCarBody {
+    width: 330px;
+    height:220px;
+}
+/*.imgCarBody img {
+    width:330px;
+    height:220px;
+}*/
+table.summary {
+    font-size: 20px;
+    border-collapse: collapse;
+    margin: 0px 30px;
+    text-align:left
+}
+
+.summary td {
+    border: 2px solid black;
+    padding: 10px;
+}
+.summary th { 
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+}
+.summary tr:nth-child(odd){
+    background-color: white;
+}
+.summary tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+table p{
+    margin-left: 10px;
+}
+
+

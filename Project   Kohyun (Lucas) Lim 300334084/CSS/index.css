@@ -1,0 +1,92 @@
+body{
+    background-color: bl;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+    
+ }
+.wrapper >* {
+    padding: 10px;
+    margin-top: 10px;
+    flex:  1 100%;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: white;
+    height: auto;
+}
+
+.main{
+    text-align: left;
+    background-image:url(../image/maincar.jpg);
+    background-size: cover;
+    opacity: 1.2;
+    height: 800px;
+    
+    font-size: 80px;
+    color: white;
+}
+
+.aside1{
+    background-image: url(../image/about\ man.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    
+}
+.aside2{
+    background-image: url(../image/bodyTypes.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.aside3{
+    background-image: url(../image/DealerVsPrivate.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.aside4{
+    background-image: url(../image/inspect&test.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.aside h1{
+    margin-top: 0px;
+    font-size:25px;
+}
+@media all and (min-width: 800px){
+    .main{
+        flex: 1 100%;
+        order: 1;
+    }
+    .aside1{
+        order: 1;
+    }
+    .aside2{
+        order: 1;
+    }
+    .aside3{
+        order: 1;
+    }
+    .aside4{
+        order: 1;
+    }
+   
+    .footer{
+        order: 1;
+    }
+}
+@media all and (min-width: 600px) {
+    .aside{
+        flex: 1;
+    }
+
+}
+
+

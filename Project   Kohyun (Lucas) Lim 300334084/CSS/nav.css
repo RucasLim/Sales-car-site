@@ -1,0 +1,95 @@
+
+/* logo nav */
+*{
+    
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background-color:black;
+    /*height: 80px;*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+    text-align: center;
+    z-index:999;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight:  bold;
+    width: 10%;
+}
+ 
+.header ul{
+    float: right;
+    /*margin-right: 5px;*/
+}
+.header ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    background-color: black;
+    color: white;
+}
+.header ul li a{
+    color: white;
+}
+ 
+ 
+.header ul li ul {
+    width: 140px;
+    display:none;
+    position: absolute;
+    font-size:14px;
+    line-height: 30px;
+}
+.header ul li:hover ul {
+    display:block;
+   
+}
+.header ul li ul li {
+    background-color: black;
+    color: white;
+    width: 180px;
+    list-style-type: none;
+}
+.header ul li ul li:hover {
+    background: orange;
+    transition: ease 1s;
+    }
+
+.header ul li :hover{
+    font-weight: bold;
+}
+main {
+    position: absolute;
+    top: 170px;
+    left: 0px;
+}
+h1 {
+    font-size: 50px;
+}
+.pageImg {
+    max-width: 90%;
+}
+.mainContent{
+    padding-bottom:30px;
+    margin: 10px;
+}
+
+main .footer {
+    left:0px;
+}
+.aside h1 {
+    font-size: 25px;
+}
+
+

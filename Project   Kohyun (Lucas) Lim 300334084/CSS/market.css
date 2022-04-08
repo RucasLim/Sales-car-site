@@ -1,0 +1,167 @@
+body{
+    background-color: bl;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+ }
+.wrapper >* {
+    padding: 10px;
+    margin-top: 10px;
+    flex:  1 100%;
+    border-radius: 10px;
+}
+
+.div1{
+    background-color: white;
+    height: 0px;
+    
+}
+
+.main{
+    text-align: left;
+    background-image:url(../image/market.jpg);
+    background-size: cover;
+    opacity: 1.2;
+    height: 800px;
+    font-size: 80px;
+    color: white;
+    
+}
+
+.aside1{
+    /*background-image: url(../image/motocycle.png);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.aside2{
+    /*background-image: url(../image/sedan.webp);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.aside3{
+    /*background-image: url(../image/suv.webp);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.aside4{
+    /*background-image: url(../image/pickup.png);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.aside h1{
+    margin-top: 0px;
+}
+@media all and (min-width: 800px){
+    .main{
+        flex: 1 100%;
+        order: 1;
+    }
+    .aside0{
+    order: 1;
+    text-align: left;
+}
+    .aside1{
+        order: 1;
+    }
+    .aside2{
+        order: 1;
+    }
+    .aside3{
+        order: 1;
+    }
+    .aside4{
+        order: 2;
+    }
+    .aside5{
+        order: 3;
+    }
+    .aside6{
+        order: 3;
+    }
+    .aside7{
+        order: 3;
+    }
+   
+    .footer{
+        order: 6;
+    }
+    .div2{
+        order: 4;
+        text-align: left;
+    }
+
+
+    .news{
+    order: 4;
+    text-align: left;
+        }
+    #dc1{
+        margin-left: 50px;
+        
+    }
+    .news img{
+        float: left;
+        margin-right: 50px;
+
+    }
+    #dc4>*{
+        line-height: 200%;
+    }
+
+
+
+
+
+
+@media all and (min-width: 600px) {
+    .aside{
+        flex: 1;
+    }
+
+}
+
+
+.main>*{
+    text-align: center;
+    padding-top: 20%;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #000000 0%,
+      #6a676d 29%,
+      #c3bdbf 67%,
+      #f8f8f5 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 100px;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+  .aside a:hover {
+      background-color: gold;
+      color: black;
+  
+  }
+}

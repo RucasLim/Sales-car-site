@@ -1,0 +1,46 @@
+main {
+    position: absolute;
+    top: 170px;
+}
+
+table {
+    font-size: 20px;
+    border-collapse: collapse;
+    /*border: 2px solid black;*/
+    margin: 0px 30px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+th { 
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.pros {
+    color: green;
+}
+
+.cons {
+    color: red;
+}
+
+a#toMarket{
+    color: blue;
+    text-decoration: underline;
+}
+
+a#toMarket:hover{
+    color:orange;
+}
+
+.note {
+    margin: 0px 30px;
+}
